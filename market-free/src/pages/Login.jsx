@@ -16,7 +16,6 @@ const Login = () => {
             onChange={() => {}}
             placeholder='ejemplo@mail.com'
           />
-          <label htmlFor='floatingInput'>Ingresa tu correo</label>
         </div>
         <div className='form-floating'>
           <input
