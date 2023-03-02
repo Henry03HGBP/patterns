@@ -9,7 +9,6 @@ const Login = () => {
         <div className='form-floating'>
           <input
             type='email' className='form-control'
-            className='form-control'
             id='floatingInput'
             name='email'
             value=''
