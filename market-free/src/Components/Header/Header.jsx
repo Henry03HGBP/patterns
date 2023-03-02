@@ -1,4 +1,5 @@
 import './Header.scss'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -6,19 +7,19 @@ const Header = () => {
       <img className='header__logo' src='https://icon-library.com/images/supermarket-icon-png/supermarket-icon-png-28.jpg' />
       <ul className='header__nav-list'>
         <li className='header__list-item'>
-          <a href='http://localhost:5173/' className='header__item-link header_item-link--is-active'>Home</a>
+          <Link to='http://localhost:5173/' className='header__item-link header_item-link--is-active'>Home</Link>
         </li>
         <li className='header__list-item'>
-          <a href='/Dashboard' className='header__item-link '>Dashboard</a>
+          <Link to='/Dashboard' className='header__item-link '>Dashboard</Link>
         </li>
         <li className='header__list-item'>
-          <a href='/Secret' className='header__item-link'>Secret</a>
+          <Link to='/Secret' className='header__item-link'>Secret</Link>
         </li>
         <li className='header__list-item'>
-          <a href='/login' className='header__item-link'>Login</a>
+          <Link to='/login' className='header__item-link'>Login</Link>
         </li>
         <li className='header__list-item'>
-          <a href='/Singup' className='header__item-link'>Sing Up</a>
+          <Link to='/Singup' className='header__item-link'>Sing Up</Link>
         </li>
       </ul>
     </nav>
