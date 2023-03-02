@@ -1,10 +1,10 @@
 import React from 'react'
-
+import '@/assets/css/form.css'
 const Login = () => {
   return (
     <main className='form-signin w-100 m-auto'>
       <form action=''>
-        <img className='mb-4' src='https://icon-library.com/images/supermarket-icon-png/supermarket-icon-png-28.jpg' width='72' height='57' />
+        <img className='mb-4' src='https://tse1.mm.bing.net/th?id=OIP._5aE_gpJTZzOeEjt7zpZwAAAAA&pid=Api&P=0' width='72' height='57' />
         <h1 className='h3 mb-3 fw-normal'>Inciar Sesión</h1>
         <div className='form-floating'>
           <input
