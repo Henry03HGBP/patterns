@@ -30,6 +30,7 @@ const Singup = () => {
             onChange={() => {}}
             placeholder='Apellido'
           />
+          <label htmlFor='last_name'>Apellido</label>
           <div className='form-floating'>
             <select
               className='form-select'
